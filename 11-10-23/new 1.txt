@@ -1,0 +1,11 @@
+// Write a java program to take the length and breadth and find the perimeter
+import java.util.*{
+	public class perimeter{
+				int length,breadth,prmt;
+				length=6;
+				breadth=5;
+				prmt=2*(length+breadth);
+				System.out.printIn("Perimeter of rectangle:",prmt);
+		
+	}
+}
