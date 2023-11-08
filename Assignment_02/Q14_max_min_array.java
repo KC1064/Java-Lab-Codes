@@ -8,12 +8,12 @@ class Q14_max_min_array {
         arr[index2] = temp;
     }
 
-    //static void display_array(int[] arr) {
-    //    for (int i = 0; i < arr.length; i++) {
-    //        System.out.printf("%d ", arr[i]);
-    //    }
-    //    System.out.println(); 
-    //}
+    static void display_array(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.printf("%d ", arr[i]);
+        }
+        System.out.println(); 
+    }
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -36,9 +36,9 @@ class Q14_max_min_array {
         }
         swap(arr, min_index, max_index);
         System.out.print("After Swapping the Array: ");
-		for (int i = 0; i < arr.length; i++) {
-            System.out.printf("%d ", arr[i]);
-        }
-        //display_array(arr);
+		//for (int i = 0; i < arr.length; i++) {
+          //  System.out.printf("%d ", arr[i]);
+        //}
+        display_array(arr);
     }
 }
