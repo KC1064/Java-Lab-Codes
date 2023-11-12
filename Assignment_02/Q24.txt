@@ -1,0 +1,3 @@
+Q24. Write a program to input a 2d array and display the sum of the elements present in the array.
+
+

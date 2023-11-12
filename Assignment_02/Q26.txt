@@ -1,0 +1,1 @@
+Q26. Write a program to input an matrix and display its transpose.
