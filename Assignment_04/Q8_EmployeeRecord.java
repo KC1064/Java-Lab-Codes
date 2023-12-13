@@ -33,7 +33,8 @@ public class Q8_EmployeeRecord {
     public static void main(String[] args) {
         if (args.length != 6) {
             System.out.println("Error: Please provide exactly six arguments - employeeId, employeeName, managerId, departmentNumber, salary, job");
-        } else {
+        }
+		else {
                 int employeeId = Integer.parseInt(args[0]);
                 String employeeName = args[1];
                 int managerId = Integer.parseInt(args[2]);

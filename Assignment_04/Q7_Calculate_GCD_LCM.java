@@ -25,13 +25,6 @@ class GCD_LCM {
 
 class Q7_Calculate_GCD_LCM {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the no. of arguments: ");
-		int n = sc.nextInt();
-		for(int i=0;i<n;i++){
-			System.out.print("Enter the number: ");
-			args[i] = sc.next();
-		}
         if (args.length != 2) {
             System.out.println("Invalid number of arguments");
         } 
@@ -45,4 +38,8 @@ class Q7_Calculate_GCD_LCM {
         }
     }
 }
+
+// For output
+// javac Q7_Calculate_GCD_LCM.java
+// javac Q7_Calculate_GCD_LCM 24 16
 
