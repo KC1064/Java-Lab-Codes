@@ -4,38 +4,40 @@
 
 import java.util.*;
 
-interface calculator{
-	void add();
-	void sub();
-	void mul();
-	void div();
+interface Calculator {
+    void add(int a,int b);
+    void sub(int a,int b);
+    void mul(int a,int b);
+    void div(int a,int b);
 }
 
-class DemoCalculator{
-	int a,b;
-	
-	public void add(){
-		System.out.println("Sum: "+(a+b));
-	}
-	public void sub(){
-		System.out.println("Sub: "+(a-b));
-	}
-	public void mul(){
-		System.out.println("Product: "+(a*b));
-	}
-	public void div(){
-		System.out.println("Division: "+(a/b));
-	}	
+class DemoCalculator implements Calculator {
+
+    public void add(int a,int b) {
+        System.out.println("Sum: " + (a + b));
+    }
+
+    public void sub(int a,int b) {
+        System.out.println("Sub: " + (a - b));
+    }
+
+    public void mul(int a,int b) {
+        System.out.println("Product: " + (a * b));
+    }
+
+    public void div(int a,int b) {
+        System.out.println("Division: " + (a / b));
+    }
 }
 
-class Q2_Calculator_Test{
-	public static void main(String args[]){
-		DemoCalculator x = new DemoCalculator();
-		x.a=10;
-		x.b=5;
-		x.add();
-		x.mul();
-		x.sub();
-		x.div();
-	}
+class Q2_Calculator_Test {
+    public static void main(String args[]) {
+        Calculator x = new DemoCalculator();
+        x.a = 10;
+        x.b = 5;
+        x.add();
+        x.mul();
+        x.sub();
+        x.div();
+    }
 }
