@@ -13,19 +13,19 @@ interface Calculator {
 
 class DemoCalculator implements Calculator {
 
-    public void add(int a,int b) {
+    public void add(int a, int b) {
         System.out.println("Sum: " + (a + b));
     }
 
-    public void sub(int a,int b) {
+    public void sub(int a, int b) {
         System.out.println("Sub: " + (a - b));
     }
 
-    public void mul(int a,int b) {
+    public void mul(int a, int b) {
         System.out.println("Product: " + (a * b));
     }
 
-    public void div(int a,int b) {
+    public void div(int a, int b) {
         System.out.println("Division: " + (a / b));
     }
 }
@@ -33,11 +33,11 @@ class DemoCalculator implements Calculator {
 class Q2_Calculator_Test {
     public static void main(String args[]) {
         Calculator x = new DemoCalculator();
-        x.a = 10;
-        x.b = 5;
-        x.add();
-        x.mul();
-        x.sub();
-        x.div();
+        int a = 10;
+        int b = 5;
+        x.add(a,b);
+        x.mul(a,b);
+        x.sub(a,b);
+        x.div(a,b);
     }
 }

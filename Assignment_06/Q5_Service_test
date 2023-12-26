@@ -19,7 +19,7 @@ class bike implements Servicing{
 	}
 }
 
-class Q4_Service_test{
+class Q5_Service_test{
 	public static void main(String args[]){
 		car x = new car();
 		x.getServiceTime();
