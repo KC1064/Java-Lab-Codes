@@ -44,7 +44,7 @@ class Triangle extends Figure {
     }
 
     void area() {
-        System.out.println("Area of Triangle " + dim1 * dim2);
+        System.out.println("Area of Triangle " + 0.5f * dim1 * dim2);
     }
 }
 
