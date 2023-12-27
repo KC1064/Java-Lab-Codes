@@ -10,7 +10,7 @@ public class Triangle{
 	double side2;
 	double height;
 	
-	public Triangle(double base, double height,double side1,double side2){
+	public Triangle(double base, double side2,double side1,double height){
 		this.base = base;
 		this.height = height;
 		this.side1 = side1;
