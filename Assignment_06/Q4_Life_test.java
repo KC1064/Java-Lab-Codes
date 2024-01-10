@@ -28,10 +28,9 @@ class boy implements College,School {
 class Q4_Life_test {
     public static void main(String[] args) {
         
-        College me = new College();
+        boy me = new boy();
 
         me.eat();
         me.sleep();
-        me.giveBirth();
     }
 }
