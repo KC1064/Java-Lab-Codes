@@ -261,3 +261,22 @@ AXIS Rate of Interest : 9
 7. Write a program that prompts the user to enter a length in feet and inches and outputs the equivalent length in centimeters. If the user enters a negative number or a non-digit number, throw and handle an appropriate exception and prompt the user to enter another set of numbers.
 
 </details>
+
+
+
+<details>
+<summary>Assignment 08</summary>
+
+1.	Write a java program that will create a thread and set the thread name, display the thread name, get the thread id, check the thread is currently alive or not.
+2.	Write a java program, that will create one thread. The main thread will read a number and check the number is prime or composite and the same time the new thread will check the number palindrome or not.
+3.	Write a java program that will create one child thread. The child thread has to display all odd numbers between m and n, and the main thread will display all the even numbers between m and n.
+4.	Write a java program to create two threads. First thread should find the square of the number, second thread should find the sum of the digits of the number. 
+5.	Write a java program, that will create two threads. The main thread will read a number and one thread will check the number is prime or composite and the same time the other thread will check the number is palindrome or not. 
+**Note:** Main thread has to wait until other two threads has completed their task. 
+6.	Write a java program that will create two threads. Set the priority to each thread and display it.
+7.	Write a java program that will compute product of two 1D arrays using multithreading. The program should read two 1D arrays of same size from the user. First thread should multiply the corresponding elements present in the odd index position and second thread should multiply the corresponding elements present in the even index position. Main thread should display the result. 
+8.	Write a simple Java thread program to compute the sum of n natural numbers. The program should read the number of threads m and value of n from the user. Each of the threads should add its share of assigned number to a global variable. When all the threads are done, the global variable should contain the result. The program should use a Synchronized block to make sure that only one thread is updating the global variable at a given time.
+9.	Write a Java thread program to search the minimum number in a given array. The program should read the number of elements in the array, number of threads to be created and the array elements from the user. Each thread should find minimum element in an assigned block of elements and compare to global minimum element. When all the threads are done, the global variable should contain the minimum element. It should use a Synchronized block to make sure that only one thread is updating the global minimum variable at any given time
+10.	Write a java program in which main thread should create two child threads (Producer and Consumer). First child thread (Producer) should produce ten random integers between 1 to 100 and the second child thread (Consumer) should check whether the generated number is even or odd. At the end the second child thread (Consumer) should print total number of even numbers received. Both the threads should wait and notify each other wherever necessary. The sample output is shown below: 
+
+</details>
