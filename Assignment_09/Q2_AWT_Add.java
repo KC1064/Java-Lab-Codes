@@ -1,0 +1,64 @@
+// Write a java awt program, which will create 3 text field and one button labelled as add. The program 
+// will take the input from the two text filed and upon pressing the add button it will display the result 
+// in the third text field. 
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+class Q2_AWT_Add extends Frame {
+    private TextField textField1, textField2, resultTextField;
+
+    public Q2_AWT_Add() {
+        
+        setLayout(new FlowLayout());
+
+        Label label1 = new Label("Number 1:");
+        textField1 = new TextField(10);
+
+        Label label2 = new Label("Number 2:");
+        textField2 = new TextField(10);
+
+        Button addButton = new Button("Add");
+        resultTextField = new TextField(10);
+        resultTextField.setEditable(false); 
+
+        add(label1);
+        add(textField1);
+        add(label2);
+        add(textField2);
+        add(addButton);
+        add(resultTextField);
+
+        addButton.addActionListener(new ActionListener() {
+           
+            public void actionPerformed(ActionEvent e) {
+                addNumbers();
+            }
+        });
+
+        
+        setTitle("Simple Addition");
+        setSize(300, 150);
+        setVisible(true);
+        //setDefaultCloseOperation(0);
+    }
+
+    private void addNumbers() {
+        try {
+          
+            int num1 = Integer.parseInt(textField1.getText());
+            int num2 = Integer.parseInt(textField2.getText());
+
+            
+            int result = num1 + num2;
+            resultTextField.setText(String.valueOf(result));
+        } catch (NumberFormatException ex) {
+           
+            resultTextField.setText("Invalid Input");
+        }
+    }
+
+    public static void main(String[] args) {
+        new Q2_AWT_Add();
+    }
+}

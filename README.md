@@ -280,3 +280,24 @@ AXIS Rate of Interest : 9
 10.	Write a java program in which main thread should create two child threads (Producer and Consumer). First child thread (Producer) should produce ten random integers between 1 to 100 and the second child thread (Consumer) should check whether the generated number is even or odd. At the end the second child thread (Consumer) should print total number of even numbers received. Both the threads should wait and notify each other wherever necessary. The sample output is shown below: 
 
 </details>
+
+
+
+<details>
+<summary>Assignment 09</summary>
+
+1.	Write a java program to creates three push buttons showing three different colors as their label. When a button is clicked, that particular color is set as background color in the frame. 
+
+ 
+
+2.	Write a java awt program, which will create 3 text field and one button labelled as add. The program will take the input from the two text filed and upon pressing the add button it will display the result in the third text field. 
+ 		 
+3.	Do as the picture
+ 
+4.	Write a java awt program, which will create 2 text field and one button labelled as Factorial. The user will enter a number in the 1st text field and upon pressing the button it will display the Factorial of the number in the 2nd text field. 
+ 
+5.	Design an AWT GUI application (called AWT Counter). Each time the "Count" button is clicked, the counter value should increase by 1 and each time the Reset button is clicked the counter value should be reset to zero. 
+ 
+6.	Create three color buttons (with caption “Red”, “Blue” and “Green”) and a text label. Initially the text should be displayed in black color. When the user clicks on a particular color button the text should be changed to that particular color as shown in the figure.	
+        
+</details>
